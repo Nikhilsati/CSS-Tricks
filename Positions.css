@@ -1,0 +1,25 @@
+/* Positions in CSS */
+    /* static */ 
+    /* relative */
+    /* absolute */
+    /* fixed */
+    /* sticky */
+
+    /* Static */
+        /* Default Positining */
+        /* No Effect of left/right/top/bottom/z-index  */
+    /* relative */
+        /* Adjusting the position of a child element relative to its parent */
+        /* You can use properties like - left/right/top/bottom/z-index  */
+        /* These properties will act relative to the parents location on the screen */
+    /* absolute */
+        /* Similar to relative, but now the frame of refrence will not be the parent, I'll be screen */
+        /* You can use properties like - left/right/top/bottom/z-index  */
+    /* Fixed */
+        /* similar to absolute, doesn't work on scroll*/
+    /* Sticky */
+        /* Similar to relative, but once the position mentioned reached, the element will be fixed to that position'*/
+
+
+/* Resources */
+    /* https://css-tricks.com/almanac/properties/p/position/ */

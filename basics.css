@@ -1,0 +1,97 @@
+/* CSS Cheetsheet  */ 
+/*
+    Cascading Style Sheets current version: 3
+    CSS uses kabab-case for nameing varialble and tags 
+    Ex -  text-align,  font-size  
+*/
+
+/* CSS SELECTORS */
+
+    /* For built in html tags, just write the tag name */
+    h1 {
+        font-size: 20px;
+    }
+
+    /* For classes, you need to write .class-name */
+    .class {
+        font-size: 20px;
+    }
+
+    /* for id, use # */
+
+    #id {
+        font-size: 20px;
+    }
+
+
+/* CSS Priorities */
+/* Types */
+    /* Inline */
+    /* Internal */
+    /* External */
+
+/* Priority */ 
+    /* Inline > Internal > External */
+
+    /* Within the same file, Last applied property is used */
+    /* !imporatant -> this is used to overwrite any other property  */ 
+    h1 {
+        font-size: 20px !important;
+    }
+
+/* Advance Selecting in CSS */
+/* , is used for assigning the same properties to all the elements separated by comas */
+/* CSS Combinators */
+    /*  descendant selector (space)
+        child selector (>)
+        adjacent sibling selector (+) not generally used
+        general sibling selector (~)  not generally used */
+
+
+/* Select any h1 decendant of div */
+.box p {     
+    font-size: 20px;
+}
+
+/* Select only the child of div that is H1 */
+
+div > h1 {
+    font-size: 20px;
+}
+
+/* UNITS in CSS */
+    /* Depending on the screen size -> Absolute Sizing */
+        /* Pixels -> px */
+        /* Percentage -> % */
+        /* View-port Width -> vw */
+        /* View-port Height -> vh */
+    /* Depending on the font size -> Relative  */
+        /* em -> relative to Parent's font size */
+        /* rem -> dependent on the root element's font size */
+
+
+/* Coloring in CSS */
+    /* HEX -> #fff */
+    /* rgb -> rgb(255, 255, 255) -> each value can range from 0, 255 */
+    /* rgba -> rgba(255, 255, 255, 1) -> similar to rgba, but last value is for transparency and can lie between 0 - 1 */
+
+    /* new units  */
+    /* hsl and hsla -> hsl(188, 97%, 28%) -> Hue, Saturation and Lightness */
+
+
+
+
+/* Defining Variables */
+/* Always do it either on Root or Body  */
+
+:root {
+    /* Syntax =>  --varName: value */
+    --my-variable: #fff;
+}
+/* Using a variable */
+/* you need to use var(--variable-name) */
+
+body {
+    background-color: var(--my-variable);
+}
+

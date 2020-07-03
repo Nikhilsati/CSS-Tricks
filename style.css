@@ -1,0 +1,29 @@
+:root {
+    font-size: 30px;
+    --main-color: #9eff1f;
+    --main-color-light: #ffe0b2;
+    --main-bg-color: #000; 
+    font-size: 40px; 
+}
+
+.container {
+    width: 70vw;
+    height: 100vh;
+    border: 2px solid rgb(255, 7, 7);
+    /* flex-wrap: wrap; */
+    /* flex-direction: row-reverse; */
+    /* /* justify-content: flex-end;  */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.box {
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+}
+

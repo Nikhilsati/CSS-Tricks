@@ -1,0 +1,48 @@
+/* Types of Elements in CSS */
+    /* Block */
+        /* Block elements means -> It'll start from a new line  -> <div>, <p>, <h1>*/
+            /* We can add margin and padding to block elements from all sides */
+    /* Inline */
+        /* Inline elemnts continus on the same line, <span>, <strong> <i> <img>  */
+            /* can add space to the left and right, but cannot add height to the top or bottom padding or margin */
+    /* Inline-Block */
+        /* similar to inline elements, except they can have padding and margins added on all four sides, make sure to use display: inline-block */
+
+/* Centering in CSS */
+    /* Horizontally */
+        /* text-align: center */
+            /* If an element is Inline */
+            /* This will work for inline, inline-block, inline-table, inline-flex, etc. */
+        
+        /*  margin: 0 auto or ( margin-left:auto; margin-right: auto ) */
+            /* This works for single block level elements */
+
+    /* Vertically */
+        /* Inline Elements */
+            /* Equal padding from top to bottom */
+                /* This works for single inline elements */
+                /* If padding is not possible for some reason, try next one */
+
+            /*  height: 100px;
+                line-height: 100px;
+                white-space: nowrap; 
+            */
+
+            /* For items in multiple lines go with display: flex */
+        /* Block Elements */
+            /* Go with flexbox */
+        
+    /* Both Horizontally and vertically */
+        /* 
+            .parent {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+        */
+
+
+    
+
+
+    
